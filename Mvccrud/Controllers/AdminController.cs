@@ -207,7 +207,7 @@ namespace Mvccrud.Controllers
         [HttpGet]
         public ActionResult xyz()
         {
-            return View();
+            return view();
         }
 
         [HttpPost]
