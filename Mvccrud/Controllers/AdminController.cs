@@ -204,6 +204,12 @@ namespace Mvccrud.Controllers
             //return View();
         }
 
+        [HttpGet]
+        public ActionResult xyz()
+        {
+            return view();
+        }
+
 
 
 
