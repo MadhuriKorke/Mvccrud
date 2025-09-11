@@ -210,6 +210,11 @@ namespace Mvccrud.Controllers
             return View();
         }
 
+        [HttpPost]
+        public ActionResult xyz()
+        {
+            return View();
+        }
 
 
 
